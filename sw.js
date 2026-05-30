@@ -1,5 +1,5 @@
 const CACHE_NAME = 'di-lab-pwa-v1'
-const PRECACHE_URLS = ['/', '/index.html', '/manifest.webmanifest', '/icon-192.svg', '/icon-512.svg']
+const PRECACHE_URLS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
